@@ -340,10 +340,13 @@ Testimonial section Design
 }
 .testimonial-section .carousel-item{
   margin-top: 3rem;
-  padding: 10rem 3.125rem;
+  padding: 3rem 2rem;
   background-color: var(--white-color);
   border-radius: 0.9375rem;
   text-align: center;
+}
+.testimonial-section .carousel-caption {
+  position: static;
 }
 
 .testimonial-section .carousel-caption img{
